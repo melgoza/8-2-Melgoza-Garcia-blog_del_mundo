@@ -1,4 +1,6 @@
- body {
+/*clases generales*/
+
+body {
     background-color: black;
     color: #FFFFFF;
 }
@@ -6,17 +8,61 @@
 article {
     background-color: rgb(44, 43, 43);
     border-bottom: 1px solid #FFFFFF;
+    padding: 1.5rem;
+}
+
+#titulo_del_blog {
+    text-align: center;
+    font-size: 3rem;
+
+/*terminan claes generales*/
+
+
+/*barra de navegación*/
+
 }
 
 .resaltado {
     color: yellow;
 }
 
-#titulo_del_blog {
-    text-align: center;
-    font-size: 3rem;
+nav>ul>li {
+    list-style: none;    
 }
+
+nav>ul>li>a {
+    text-decoration: none;
+    color:white;
+} 
+
+
+nav>ul>li {
+    list-style: none;    
+}
+
+
+/*termina barra de navegación*/
+
+
+/*footer del blog*/
+
+#footer_blog{
+    margin: 2rem;
+}
+
+/*fin del footer del blog*/
+
+/*ilustraciones*/
+
 .ilustracion{
-    border: 4px solid #FFFFFF;
-    display: inline;
+    display: inline-block;
+    border: 4px solid #FFFFFF;   
 }
+
+.ilustracion figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+/*fin ilustraciones*/
