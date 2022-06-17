@@ -66,3 +66,59 @@ nav>ul>li {
 }
 
 /*fin ilustraciones*/
+
+/*inicia grid*/
+
+section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+}
+
+section>header {
+    grid-column: span 12;
+}
+
+main{
+    grid-column: 1/9;
+}
+
+aside{
+    grid-column: 9/13;
+}
+
+footer{
+    grid-column: span 12;
+    text-align: center;
+}
+
+/*termina grid*/
+
+nav{
+    background-color: turquoise;
+    height: 30px;
+}
+.linea{
+    display: inline;
+}
+.nav_1{
+    position: relative;
+    top: 5px;
+    left: 235px;
+}
+.nav_2{
+    position: relative;
+    top: 5px;
+    left: 470px;
+}
+.nav_3{
+    position: relative;
+    top: 5px;
+    left: 705px;
+}
+.nav_4{
+    position: relative;
+    top: 5px;
+    left: 940px;
+}
